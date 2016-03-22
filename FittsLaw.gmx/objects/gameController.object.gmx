@@ -94,8 +94,8 @@ sequence[24] = 12
         break;
         
     case 1: //Xbox Analogue
-        haxis = gamepad_axis_value(0, gp_axislh)
-        vaxis = gamepad_axis_value(0, gp_axislv)
+        haxis = gamepad_axis_value(0, gp_axisrh)
+        vaxis = gamepad_axis_value(0, gp_axisrv)
         if(abs(haxis)&lt;0.025){haxis=0;}
         if(abs(vaxis)&lt;0.025){vaxis=0;}
         chx += haxis*20
